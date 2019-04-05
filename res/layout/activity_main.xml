@@ -1,0 +1,45 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/out_1"
+        android:layout_height="150dp"
+        android:background="#adffbb"/>
+    <EditText
+        android:id="@+id/num_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#526545"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/num_2"
+        android:layout_height="wrap_content"
+        android:background="#556699"
+        android:inputType="number"/>
+    <Button
+       android:id="@+id/butt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+    <Button
+        android:id="@+id/butt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtract"/>
+    <Button
+        android:id="@+id/butt_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply"/>
+    <Button
+        android:id="@+id/butt_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divide"/>
+
+</LinearLayout>
